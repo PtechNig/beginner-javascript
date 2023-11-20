@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(239, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+
+    width: 65%;
+    margin: 50px auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+table caption{
+    width: 100%;
+    color: rgb(28, 133, 133);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container table th{
+    background-color: rgb(28, 133, 133);
+    padding: 17px 0 17px 17px;
+    text-align: left;
+    color: rgb(239, 245, 245);
+}
+
+.container table th:last-child{
+    padding-right: 7px;
+}
+
+.container table  tbody td{
+    padding: 17px;
+    border-bottom: 1px solid rgb(28, 133, 133);
+    cursor: pointer;
+}
+.container table tbody tr{
+    transition: .5s;
+}
+
+.container table tbody tr:hover{
+    background-color: rgb(27, 235, 235);
+}
+
+.container table tbody tr:nth-child(even){
+    background-color: rgb(175, 221, 221);
+}
+
+.fa-square-check{
+    color: green;
+}
+
+.fa-xmark{
+    color: red;
+}
